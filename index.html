@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Michael Da Silva</title>
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Welcome to my Page">
+  <meta name="author" content="mdasilva">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- The scrollable area -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Navigation Part -->
+  <nav class="navbar navbar-inverse navbar-fixed-top navStylez">
+    <div class="container-fluid navStylez">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Michael Da Silva</a>
+      </div>
+      <div class="collapse navbar-collapse myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="#home">
+              <span class="glyphicon glyphicon-home"></span> Home</a>
+          </li>
+          <li>
+            <a href="#portfolio">
+              <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">
+              <span class="glyphicon glyphicon-comment"></span> About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section class="home" id="home">
+   <div class="col-md-12 headr center-align">
+
+            <img src="img/codeImage.png" class="bg" alt="Several programming logos">
+            <h1 class="title">Michael Da Silva</h1>
+            <p class="title">Web Developer</p>
+
+   </div>
+     <div class="col-md 12" id="sidebar">
+
+       <div class="btn-group btn-group-justified" role="group" aria-label="...">
+         <div class="btn-group" role="group">
+           <button type="button" class="btn btn-secondary customPadding">
+             <a href="mailto:mdasilva111@yahoo.com" class="list-group-item btn btn-default btn-lg "><i class="fa fa-envelope"></i> Email</a>
+           </button>
+         </div>
+         <div class="btn-group" role="group">
+           <button type="button" class="btn btn-secondary customPadding">
+             <a href="https://github.com/programmedmikey" class="list-group-item btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Github </a>
+           </button>
+         </div>
+         <div class="btn-group" role="group">
+           <button type="button" class="btn btn-secondary customPadding">
+             <a href="http://codepen.io/ProgrammedMikey/" class="list-group-item btn btn-default btn-lg"> <i class="fa fa-codepen"></i> Codepen</a>
+           </button>
+         </div>
+         <div class="btn-group" role="group">
+           <button type="button" class="btn btn-secondary customPadding">
+             <a href="http://www.freecodecamp.com/programmedmikey" class="list-group-item btn btn-default btn-lg">(<i class="fa fa-fire fa-fw"></i>) CodeCamp</a>
+           </button>
+         </div>
+       </div>
+
+     </div>
+
+  </section>
+
+
+  <!-- Portfolio -->
+  <section class="portfolio animate" style="transform: translateY(29.5px)" id="portfolio">
+    <div class="col-md-12 depth border">
+    <h1>Portfolio</h1>
+    <p>Check out some of my own projects I have worked on.</p>
+    </div>
+    
+
+
+    
+    <div class="container">
+
+     <h2> Microservices</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="https://mdasilva-timestamp.herokuapp.com//" class="thumbnail" target="_blank">
+              <img src="img/timeStamp.PNG" alt="Timestamp Microservice API" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#time">Timestamp Microservice API</h2>
+            <div id="time" class="collapse">
+              <p class="gray-text">This is a microservice that will allow get calls to convert Unix time-stamps or natural dates to one or the other. It checks the date given for validity and output either null or a predefined date format.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, Momentjs, Nodejs, Expressjs, JSON</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="https://mdasilva-header.herokuapp.com/" class="thumbnail" target="_blank">
+              <img src="img/header.PNG" alt="Header" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#header">Header Parser Microservice API</h2>
+            <div id="header" class="collapse">
+              <p class="gray-text">It is an API that works similar to "whoami" as it displays the real ip, language and software version from the client side.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> Javascript, Node.js, ExpressJS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="https://mdasilva-urlshortener.herokuapp.com/" class="thumbnail" target="_blank">
+              <img src="img/urlShort.PNG" alt="Url Shortener" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#time">URL Shortener Microservice</h2>
+            <div id="time" class="collapse">
+              <p class="gray-text">User stories:
+		I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+		When I visit that shortened URL, it will redirect me to my original link.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, Momentjs, Nodejs, Expressjs, JSON</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="https://mdasilva-imgsearch.herokuapp.com/" class="thumbnail" target="_blank">
+              <img src="img/imageSearch.PNG" alt="Header" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#header">Image Search Abstraction Layer</h2>
+            <div id="header" class="collapse">
+              <p class="gray-text">I can get the image URLs, alt text and page urls for a set of images relating to a given search string. User can paginate through the responses by adding a ?offset=2 parameter to the URL. User can get a list of the most recently submitted search strings.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> Javascript, Node.js, ExpressJS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well depth">
+            <a href="https://mdasilva-metadata.herokuapp.com/" class="thumbnail" target="_blank">
+              <img src="img/metadata.PNG" alt="Timestamp Microservice API" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#time">File Metadata Microservice </h2>
+            <div id="time" class="collapse">
+              <p class="gray-text">User stories:I can submit a FormData object that includes a file upload.
+		User Story: When I submit something, I will receive the file size in bytes within the JSON response</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> multer, HTML5, Boostrap3, Font Awesome, Javascript, Momentjs, Nodejs, Expressjs, JSON</p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+
+       <h2> React</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/RrjVvv/" class="thumbnail" target="_blank">
+              <img src="img/playNine.PNG" alt="Timestamp Microservice API" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#time">Play Nine</h2>
+            <div id="time" class="collapse">
+              <p class="gray-text">Use the number circles below to match how many stars are shown. If you get stuck, click the redraw button. You only get 5 redraws.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, React</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/BjZGoZ/" class="thumbnail" target="_blank">
+              <img src="img/marked.PNG" alt="Header" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#header">Github Markdown Previewer</h2>
+            <div id="header" class="collapse">
+              <p class="gray-text"></p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, React</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/QyOzmV/" class="thumbnail" target="_blank">
+              <img src="img/leaderBoard.PNG" alt="Timestamp Microservice API" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#time">Camper Leaderboard</h2>
+            <div id="time" class="collapse">
+              <p class="gray-text"></p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong>HTML5, Boostrap3, Font Awesome, Javascript, React</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/rxpPWa/" class="thumbnail" target="_blank">
+              <img src="img/recipeBox.PNG" alt="Header" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#header">Recipe Box</h2>
+            <div id="header" class="collapse">
+              <p class="gray-text"> </p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, React</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/yevoRx/" class="thumbnail" target="_blank">
+              <img src="img/GoL.PNG" alt="Timestamp Microservice API" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#time">Game of Life</h2>
+            <div id="time" class="collapse">
+              <p class="gray-text"> </p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, React</p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+
+
+      	<h2>Web Apps</h2>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/ZQBMMM/" class="thumbnail" target="_blank">
+              <img src="img/quote.PNG" alt="Random Quote Generator" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#random">Random Quote Generator</h2>
+            <div id="random" class="collapse">
+              <p class="gray-text">This site will display random quotes using the <a href="http://forismatic.com/" target="_blank" style="color: orange">Forismatic</a> API. You will then have the option to tweet it and share with others.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/WrjyyX/" class="thumbnail" target="_blank">
+              <img src="img/weather.PNG" alt="Local Weather App" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#weather">Local Weather App</h2>
+            <div id="weather" class="collapse">
+              <p class="gray-text">This site will get your location from your IP address using the <a href="http://ip-api.com" target="_blank" style="color: orange">IP-API.com</a> API. The use that information to get the current weather and other basic information using the
+                <a href="http://openweathermap.org/" target="_blank" style="color: orange">OpenWeatherMap</a> API. The user has the option to display the weather and wind speed using the Metric or Imperial system. It also changes background image depending
+                on the temperature.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/JGENyY/" class="thumbnail" target="_blank">
+              <img src="img/pTimer.PNG" alt="Pomodoro Timer" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#timer">Pomodoro Timer</h2>
+            <div id="timer" class="collapse">
+              <p class="gray-text">This web app is great for productivity, it can sit in any corner of your screen, and there is not even the need to keep it in view. Once you set the amount of time you want to work and how long you want to rest for, then just let it run
+                and it will keep looking until you stop it. You are also able to pause it in case you have to step aside from your work for a brief moment. It has a nice progression animation to let you know how much time you have left and the break and
+                work progress animation have different color to help you figure out in which one you should be if needed.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, Canvas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/EPXjQO/" class="thumbnail" target="_blank">
+              <img src="img/twitch.PNG" alt="Twitchtv JSON API" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#twitch">Twitchtv JSON API</h2>
+            <div id="twitch" class="collapse">
+              <p class="gray-text">This app will use the Twitch TV JSON API and display a list of accounts, if they are closed it will display the right symbols and mention that the account has been closed, the same for offline and online streams. It will also display online
+                and offline streams on a different tab and has a global search function that display results as you type while hiding anything that is not part of the match using regular expressions.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, API, Font Awesome.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/YwVRPG/" class="thumbnail" target="_blank">
+              <img src="img/camperNews.PNG" alt="FCC Camper News" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#news">FCC Camper News</h2>
+            <div id="news" class="collapse">
+              <p class="gray-text">This web app displays the hottes news from <a href="http://freecodecamp.com/news" target="_blank" style="color: orange">FreeCodeCamp</a> news. You have will see the username, the date it was posted, how many upvotes and the original link
+                to the article. </p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, Datejs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/MKbxYw/" class="thumbnail" target="_blank">
+              <img src="img/calculator.PNG" alt="Calculator" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#calc">Calculator</h2>
+            <div id="calc" class="collapse">
+              <p class="gray-text">This calculator will allow you to do chain operations and get a proper answer thanks to the use of parentheses for more complex operations. It does cover the basic features of a calculator too. </p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/yebQLQ/" class="thumbnail" target="_blank">
+              <img src="img/wikiViewer.PNG" alt="Wikipedia Searcher" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#wiki">Wikipedia Searcher</h2>
+            <div id="wiki" class="collapse">
+              <p class="gray-text">This app will use the wikipedia API to produce search on the fly on their database. You can also click a button to get a random wiki article. The app can easily be adjusted for any other MediaWiki installation.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well depth">
+            <a href="http://codepen.io/ProgrammedMikey/full/obwGoO/" class="thumbnail" target="_blank">
+              <img src="img/simon.PNG" alt="Simon" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#simon">Simon Game</h2>
+            <div id="simon" class="collapse">
+              <p class="gray-text">Web App that lets the use plays against the machine. There are two modes, strict mode which does not allow for reties, and normal mode which allows for unlimited retries.
+                <br/>The speed increases after the 5th,9th and 13th round. The player wins after the 20th round.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-info container">
+       <h1 class="aboutH">About Me </h1>
+ <div class="col-xs-8 col-lg-9"><p class="aboutP"> Exceptionally creative, dependable, highly efficient and detail-oriented Web Developer. Current knowledge and experience in traditional MVC, CMS and SPA web application development.
+   Able to build a Web presence from the ground up, from concept, navigation, layout and programming to UX and SEO. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. I am passionate about what I do and always give 100%. Fast learner, and hard worker with superb work ethic. Profound creative and analytical problem-solving and troubleshooting skills. Currently interested in any apprenticeship/ junior programming positions that wants to attract talented people.
+ </p>
+ </div><div class="col-xs-4 col-lg-3">  <img class="img-responsive img-circle displayed me" src="https://avatars1.githubusercontent.com/u/12536152?v=3&s=460" class="img-responsive " alt="Responsive image"></div>
+    
+    </div>
+  </section>
+
+  <!-- The footer -->
+  <footer>
+    <p>Copyright © Michael DaSilva 2017. All Rights Reserved</p>
+    <p>
+      <a href="mailto:mdasilva111@yahoo.com">
+        <i class="fa fa-envelope fa-fw"></i>
+      </a>
+      <a href="https://github.com/programmedmikey" target="_blank">
+        <i class="fa fa-github fa-fw"></i>
+      </a>
+     
+      <a href="http://codepen.io/programmedmikey" target="_blank">
+        <i class="fa fa-codepen"></i>
+      </a>
+     
+      <a href="http://www.freecodecamp.com/programmedmikey" target="_blank">
+    (<i class="fa fa-fire fa-fw"></i>)
+  </a></p>
+  </footer>
+</body>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>

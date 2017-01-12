@@ -1,0 +1,197 @@
+
+.animate {
+  background: -webkit-linear-gradient(266deg, #47a9fa, #caffc3);
+  background: linear-gradient(184deg, #47a9fa, #caffc3);
+  /*background-size: 400% 400%;*/
+  -webkit-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+}
+
+.border {
+  border-left: 10px solid #302CE2;
+  border-right: 10px solid #0CE18B;
+  border-bottom: 10px solid #0CE18B;
+  border-top: 10px solid #302CE2;
+  box-sizing: border-box;
+}
+
+.depth {
+  border-radius: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+  padding: 20px 20px;
+  box-shadow: 7px 8px 41px -10px rgba(0, 0, 0, 0.75);
+  color: #333333 !important;
+}
+
+.navStylez{
+  box-shadow: 5px 5px 13px -4px rgba(0, 0, 0, 0.75);
+  background: #333333 !important;
+
+}
+
+
+.bg {
+  margin-top: 50px;
+  max-height: 35vh;
+  max-width: 90%;
+  z-index:-1;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.customPadding{
+  padding: 5px;
+  margin-top: 30px;
+  box-shadow: 3px 2px 20px -7px rgba(0,0,0,0.75);
+  background: #00bcd4 !important;
+}
+h1.title{
+  color:#333333;
+   font-family: 'Trocchi', serif;
+    text-shadow: 1px 1px 1px #aaa;
+  font-size: 90px;
+}
+p.title{ 
+color:#333333;
+  font-family: 'Trocchi', serif;
+   text-shadow: 1px 1px 1px #aaa;
+  font-size: 60px;
+}
+.headr{ 
+  /*background-image: url( 'http://www.newsapience.com/wp-content/uploads/2015/09/ai-background.jpg');*/
+  /*-webkit-background-size: contain;*/
+  /*-moz-background-size: contain;*/
+  /*-o-background-size: contain;*/
+  /*background-size: contain;*/
+  min-height: 300px;
+  align-items: center;
+}
+body {
+  position: relative;
+}
+footer {
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+section h1, h2, p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.panel-body, p {
+  font-size: 150%;
+}
+
+section a {
+  color: white;
+}
+.gray-text {
+  color: gray;
+}
+.project-text {
+  color: gray;
+}
+img {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+.thumbnail img:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */
+}
+.me {
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray;
+}
+.displayed {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+.img-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+.social {
+  padding-top: 10px;
+}
+.panel-body {
+  color: black;
+}
+.navbar-header {
+  padding-left: 10%;
+}
+.navbar-right {
+  padding-right: 10%;
+}
+.home {
+  position: relative;
+  min-height: 700px;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: #fff;
+  background-color: #ffffff;
+}
+.experience {
+  min-height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #fff;
+  background-color: #009688;
+}
+.portfolio {
+  min-height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #fff;
+  background-color: #ff9800;
+}
+.aboutH { 
+   font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    padding: 8px 0px ;
+    margin-top: 0; 
+    border-radius:8px;
+  text-decoration:underline;
+}
+.contact {
+  min-height: 90vh;
+  padding-top: 5%;
+  padding-bottom: 50px;
+  color: #fff;
+  background-color: #00bcd4;
+}
+.contact-info {
+  width: 83%;
+  min-height: 60vh;
+  margin: auto;
+}
+
+.project-img{
+  height: 450px;
+  width: 450px;
+}
+
+.well{
+  min-height: 400px;
+}
